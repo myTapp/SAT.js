@@ -1,5 +1,4 @@
-function SAT(price, ml) {
-    var total = price * ml;
+function SAT(total) {
     if (typeof total == 'string') {
         total = Number(total);
     }
